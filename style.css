@@ -1,0 +1,104 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+}
+
+.headings {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+
+.message {
+  margin: auto;
+}
+
+.brush-selection {
+  height: 140px;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  
+}
+
+.paint {
+  height: 250px;
+  display: flex;
+  flex-direction: column
+}
+
+.palette {
+  display: flex;
+  margin-left: -30px;
+}
+
+.brush {
+  display: flex;
+  margin: auto;
+}
+
+.icon {
+  width: 30px;
+  height: 30px;
+}
+
+.current-brush, .palette-color {
+  width: 30px;
+  height: 30px;
+  border: 1px solid black;
+}
+
+.canvas {
+  display: grid;
+  grid-template-rows: repeat(30, 1fr);
+  grid-template-columns: repeat(30, 1fr);
+  height: 300px;
+  width: 300px;
+  border: 1px solid black;
+  margin: auto;
+}
+
+.square {
+  transition: 0.5s;
+}
+
+.color-1 {
+  background-color: #add8e6;
+}
+
+.color-2 {
+  background-color: #ffa500;
+}
+
+.color-3 {
+  background-color: lightgreen;
+}
+
+.color-4 {
+  background-color: yellow;
+}
+
+.color-5 {
+  background-color: white;
+}
+
+.color-6 {
+  background-color: purple;
+}
+
+.color-7 {
+  background-color: green;
+}
+
+.color-8 {
+  background-color: pink;
+}
+
+.color-9 {
+  background-color: blue;
+}
+
+.color-10 {
+  background-color: cyan;
+}
